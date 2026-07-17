@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qtpy-error-report-dialog"
+version = "0.1.0"
+description = "Qt/Tk error report dialogs with host submit callback"
+readme = "README.md"
+license = { text = "LGPL-3.0-or-later" }
+requires-python = ">=3.8"
+authors = [{ name = "oldrepublicwizard" }]
+dependencies = [
+    "qtpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/oldrepublicwizard/qtpy-error-report-dialog"
+Repository = "https://github.com/oldrepublicwizard/qtpy-error-report-dialog"
+
+[tool.setuptools.packages.find]
+where = ["src"]
