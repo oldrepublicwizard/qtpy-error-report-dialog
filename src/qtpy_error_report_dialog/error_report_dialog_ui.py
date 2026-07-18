@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'c:\GitHub\PyKotor\Libraries\PyKotor\src\utility\gui\qt\error_report_dialog.ui'
+# Form implementation generated from a .ui file
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #

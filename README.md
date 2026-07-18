@@ -1,17 +1,14 @@
 # qtpy-error-report-dialog
 
-Crash / error report dialogs for Qt (qtpy) and Tkinter. Host supplies an `on_submit` callback.
+Error report dialogs for Qt (and a Tk variant in the same package lineage). Show the traceback, let the user copy it, optionally attach context.
+
+Bring your own `qtpy` + binding.
 
 ## Install
 
 ```bash
-pip install -e .
-# Qt binding (PyQt5/6 or PySide) provided by host
+pip install git+https://github.com/oldrepublicwizard/qtpy-error-report-dialog.git
 ```
-
-## Origin
-
-Extracted from PyKotor `utility/gui` error report dialogs.
 
 ## License
 
